@@ -47,6 +47,7 @@ public class Calculator {
         num.add(RomanNumerals.fromRomanToInt(parseData.get(0)));
         num.add(RomanNumerals.fromRomanToInt(parseData.get(2)));
         }
+        else throw new NumberFormatException("Числа не входят в заданный диапазон или в строке содержатся буквы");
         return num;
     }
 
