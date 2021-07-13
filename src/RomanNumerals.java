@@ -61,17 +61,4 @@ public class RomanNumerals {
         return stringBuilder.toString();
     }
 
-    // является ли строка римскими цифрами
-    static boolean isRoman(String string) {
-        boolean roman = false;
-        for (RomanNumber number : RomanNumber.values()) {
-            // или лучше с equalsIgnoreCase?
-            if (number.name().equals(string)) {
-                roman = true;
-                break;
-            }
-        }
-        return roman;
-    }
-
 }
