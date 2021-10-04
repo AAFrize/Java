@@ -1,3 +1,5 @@
+package com.jd;
+
 public class NotReborn extends Referals {
     public float bSh(int level) {
         if (level < 120) return 0;
